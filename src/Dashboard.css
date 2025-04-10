@@ -1,0 +1,109 @@
+
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f6f8;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #1B2341;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.sidebar .user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar .user-img {
+  width: 60px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.sidebar .user-name {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  margin: 12px 0;
+}
+
+.sidebar nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.sidebar .logo-bottom img {
+  width: 100px;
+  align-self: center;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 30px;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-agregar {
+  background-color: #008AC0;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.dashboard-cards {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+  margin-bottom: 15px;
+  color: #1B2341;
+}
+
+.card ul {
+  padding-left: 0;
+  list-style: none;
+  font-size: 14px;
+}
+
+.rojo {
+  color: red;
+}
+.amarillo {
+  color: #e6a100;
+}
+.verde {
+  color: green;
+}

@@ -1,0 +1,84 @@
+
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f6f8;
+}
+
+.landing-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1B2341;
+  color: white;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.login-button {
+  background-color: #008AC0;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.contact-section {
+  padding: 3rem 2rem;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-box {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.contact-box h2 {
+  text-align: center;
+  color: #1B2341;
+  margin-bottom: 1.5rem;
+}
+
+.contact-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-box input, .contact-box textarea {
+  margin-bottom: 15px;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.contact-box button {
+  background-color: #008AC0;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.landing-footer {
+  background-color: #1B2341;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 14px;
+}
