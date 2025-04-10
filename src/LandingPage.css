@@ -21,6 +21,11 @@
   font-weight: bold;
 }
 
+.logo-img {
+  height: 40px;
+  object-fit: contain;
+}
+
 .login-button {
   background-color: #008AC0;
   color: white;

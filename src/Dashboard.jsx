@@ -4,6 +4,8 @@ import './Dashboard.css';
 import { Link } from 'react-router-dom';
 import LogoutButton from './LogoutButton';
 
+
+
 function Dashboard() {
   return (
     <div className="dashboard-container">
@@ -23,12 +25,10 @@ function Dashboard() {
             <li><Link to="/incidencias">Incidencias</Link></li>
           </ul>
         </nav>
-        <div className="logout-area">
-          <LogoutButton />
-        </div>
         <div className="logo-bottom">
           <img src="/assets/logo_transparente.png" alt="Logo CRM" />
         </div>
+<LogoutButton />
       </aside>
 
       <main className="main-content">

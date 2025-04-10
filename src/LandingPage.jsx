@@ -8,7 +8,9 @@ function LandingPage() {
   return (
     <div className="landing-container">
       <header className="landing-header">
-        <div className="logo">Reyna Novillo</div>
+      <div className="logo">
+        <img src="/assets/Logo_front.png" alt="Logo Reyna Novillo" className="logo-img" />
+      </div>
         <Link to="/login" className="login-button">Iniciar Sesión</Link>
       </header>
 
@@ -27,7 +29,7 @@ function LandingPage() {
       </section>
 
       <footer className="landing-footer">
-        © 2025 Reyna Novillo · contacto@reynanovillo.com · +34 600 000 000 / +54 351 000 0000
+        © 2025 Reyna Novillo · info@reynanovillo.es · +34 645 435 117 / +54 351 520 3465
       </footer>
     </div>
   );
