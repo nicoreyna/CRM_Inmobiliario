@@ -1,0 +1,167 @@
+/* src/styles/LandingPage.css */
+
+.landing-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f4f6fa;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.landing-header {
+  background: #192040;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 40px 24px 32px;
+}
+
+.logo-img {
+  height: 44px;
+  width: auto;
+}
+
+.login-button {
+  background: #0092c7;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 32px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+.login-button:hover {
+  background: #007ab8;
+}
+
+/* Hero section */
+.hero-section {
+  background: url('/assets/malaga-argentina.jpg') center/cover no-repeat;
+  min-height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 0 32px 0;
+}
+.hero-content {
+  background: rgba(25,32,64,0.76);
+  padding: 40px 32px;
+  border-radius: 24px;
+  color: #fff;
+  text-align: center;
+  max-width: 560px;
+  width: 100%;
+}
+.hero-content h1 {
+  margin-bottom: 32px;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.country-buttons {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+.country-btn {
+  background: #0092c7;
+  color: #fff;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.country-btn:hover {
+  background: #007ab8;
+}
+
+/* Contact section */
+.contact-section {
+  display: flex;
+  justify-content: center;
+  padding: 42px 0 0 0;
+}
+.contact-box {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 14px rgba(40,64,130,0.10);
+  padding: 34px 32px;
+  min-width: 350px;
+  max-width: 440px;
+  width: 100%;
+}
+.contact-box h2 {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #192040;
+}
+.contact-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.contact-box input,
+.contact-box textarea {
+  border-radius: 7px;
+  border: 1px solid #c3c5c7;
+  padding: 12px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s;
+}
+.contact-box input:focus,
+.contact-box textarea:focus {
+  border: 1.5px solid #0092c7;
+}
+.contact-box button {
+  background: #0092c7;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.contact-box button:hover {
+  background: #007ab8;
+}
+
+.landing-footer {
+  margin-top: auto;
+  background: #192040;
+  color: #fff;
+  text-align: center;
+  padding: 16px 0 12px 0;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .landing-header {
+    flex-direction: column;
+    gap: 18px;
+    padding: 16px;
+    text-align: center;
+  }
+  .hero-section {
+    padding: 24px 0;
+  }
+  .hero-content {
+    padding: 26px 8px;
+  }
+  .contact-section {
+    padding: 18px 0 0 0;
+  }
+}

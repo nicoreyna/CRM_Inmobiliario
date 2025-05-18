@@ -1,0 +1,52 @@
+/* src/styles/Configuracion.css */
+.main-content {
+  padding: 40px 24px 24px 24px;
+  background: #f4f4f9;
+  min-height: 100vh;
+}
+.seccion-nuevo-usuario,
+.seccion-lista-usuarios {
+  margin-bottom: 40px;
+}
+.form-nuevo-usuario {
+  display: flex;
+  gap: 14px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+.form-nuevo-usuario input,
+.form-nuevo-usuario select {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #c1c7d0;
+  font-size: 1rem;
+}
+.form-nuevo-usuario button {
+  padding: 8px 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.form-nuevo-usuario button:hover {
+  background-color: #005fa3;
+}
+
+.seccion-lista-usuarios table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.07);
+}
+.seccion-lista-usuarios th, .seccion-lista-usuarios td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #ececec;
+  text-align: left;
+}
+.seccion-lista-usuarios th {
+  background: #f0f2f7;
+  font-weight: 600;
+}
